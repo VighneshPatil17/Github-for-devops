@@ -1,0 +1,21 @@
+git --version
+git init  "( we can add an empty or we can initialize empty git repository)"
+
+git status "(The git status command is used in Git to display the state of the working directory and the staging area.)"
+
+git add testing.py  "(The command git add testing.py adds the testing.py file to the staging area in Git.)"
+
+git status
+
+git rm --cached testing.py "(The command git rm --cached testing.py removes the testing.py file from the staging area and it goes in untracked)"
+
+git status
+
+git add . "(The command git add . stages all the changes in the current directory and its subdirectories. all files select)
+
+git commit -m "added testing files"  "(The command git commit -m "added testing files" commits the changes you've staged (using git add . or git add <file>) to the Git repository with the message "added testing files".)""
+
+rm testing.py  "(remove the testing.py file)"
+
+git restore teting.py  "(restore the files)"
+ 
