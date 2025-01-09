@@ -25,3 +25,5 @@ git remote -v   "(used to check remote repo add or not..)"
 git remote set-url origin https://Your_Generated_Token@github.com/VighneshPatil17/Github-for-devops.git "(to push the code from local pc to remote :: )"
 
 git push origin master "(The command git push origin master pushes your local changes (committed changes) in the master branch to the remote repository named origin)"
+
+this is some new changes
