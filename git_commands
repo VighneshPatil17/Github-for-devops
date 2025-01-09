@@ -27,3 +27,16 @@ git remote set-url origin https://Your_Generated_Token@github.com/VighneshPatil1
 git push origin master "(The command git push origin master pushes your local changes (committed changes) in the master branch to the remote repository named origin)"
 
 this is some new changes
+
+-- To clone the repo (Means from Github to local) --
+
+1stly You should create a directory usind cd path/loc and then mkdir dirname.
+Then you have to run "git clone url" this command. Then you run "git push origin master". 
+
+-- Pull The code --
+suppose you already push the code on github and then you made some changes in local like vs code and then you 
+check the github , but on github the changes you made in vs code are not displayed on github.
+That time you 1st run the command "git status" and then tracked the file using "git add file" and 
+"git commit -m "message" " commands. Then run "git remote set-url origin https://Pat@github.com/name".
+And last you run "git push origin master" command.
+Then all changes has also done on github. 
